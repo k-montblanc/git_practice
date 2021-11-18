@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')({sigint: true});
+const prompt = require('prompt-sync')({sigint: false});
 const name = prompt('What is your name? ');
 let arr1 = ['bawdy','brazen','churlish','distempered'];
 let arr2 = ['bunch-backed','clay-brained','dog-hearted','empty-hearted'];
